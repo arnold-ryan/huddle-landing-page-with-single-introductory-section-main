@@ -1,9 +1,16 @@
 // @use "./variables" as v;
 
 header {
-  background-image: url(../images/bg-mobile.svg);
+  background-image: url(/images/bg-mobile.svg);
+  background-size: cover;
+  margin-bottom: 12rem;
 
   nav {
-    padding: 7.7rem 0 14rem 7.7rem;
+    padding: 7.7rem 0 12rem 7.7rem;
+  }
+  .header--image {
+    transform: scale(0.8);
+    display: block;
+    margin-inline: auto;
   }
 }
