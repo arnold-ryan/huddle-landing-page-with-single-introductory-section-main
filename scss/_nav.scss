@@ -3,10 +3,15 @@
 header {
   background-image: url(/images/bg-mobile.svg);
   background-size: cover;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
 
   nav {
-    padding: 7.7rem 0 12rem 7.7rem;
+    padding: 7.7rem 0 8rem 7.7rem;
+
+    .nav--logo {
+      transform: scale(0.7);
+      margin-left: -3rem;
+    }
   }
   .header--image {
     transform: scale(0.8);
