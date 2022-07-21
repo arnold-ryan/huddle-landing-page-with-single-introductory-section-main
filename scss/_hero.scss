@@ -4,6 +4,10 @@
   margin-inline: 9rem;
   text-align: center;
 
+  @media screen and (max-width: 144rem) {
+    margin-inline: 8rem;
+  }
+
   &--title {
     font-size: 5rem;
     line-height: 1.4;
@@ -23,6 +27,7 @@
     font-size: 1.6rem;
     border-radius: 3.5rem;
     margin-bottom: 12.7rem;
+    cursor: pointer;
     box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.5);
 
     &:hover {
