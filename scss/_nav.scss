@@ -7,9 +7,18 @@ header {
   nav {
     padding: 7.7rem 0 8rem 7.7rem;
 
+    @media screen and (min-width: 900px) {
+      padding: 6.4rem 0 10rem 8rem;
+    }
+
     .nav--logo {
       transform: scale(0.7);
       margin-left: -3rem;
+
+      @media screen and (min-width: 900px) {
+        transform: none;
+        margin-left: 0;
+      }
     }
   }
 }

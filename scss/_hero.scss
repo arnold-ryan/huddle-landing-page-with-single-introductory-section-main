@@ -5,7 +5,8 @@
 
   @media screen and (min-width: 900px) {
     display: flex;
-    margin-inline: 0;
+    gap: 6rem;
+    margin-inline: 8rem;
   }
 
   &--box1 {
@@ -18,6 +19,10 @@
 
   &--box2 {
     text-align: center;
+
+    @media screen and (min-width: 900px) {
+      text-align: left;
+    }
   }
 
   &--image {
@@ -34,12 +39,22 @@
     font-size: 5rem;
     line-height: 1.4;
     margin-bottom: 4rem;
+
+    @media screen and (min-width: 900px) {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
   }
 
   &--msg {
     font-size: 3rem;
     line-height: 1.5;
     margin-bottom: 5.2rem;
+
+    @media screen and (min-width: 900px) {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
   }
 
   &--btn {
@@ -56,14 +71,29 @@
       color: white;
       background-color: v.$secondary;
     }
+
+    @media screen and (min-width: 900px) {
+      padding: 2.2rem 6.4rem;
+      margin-bottom: 18.2rem;
+    }
   }
   &--icons {
     margin-bottom: 8rem;
+
+    @media screen and (min-width: 900px) {
+      display: flex;
+      justify-content: flex-end;
+    }
 
     ion-icon {
       cursor: pointer;
       font-size: 5.6rem;
       margin-right: 2rem;
+
+      @media screen and (min-width: 900px) {
+        font-size: 4rem;
+        margin-right: 1.8rem;
+      }
 
       &:hover {
         color: v.$secondary;
