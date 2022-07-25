@@ -2,19 +2,32 @@
 
 .hero {
   margin-inline: 9rem;
-  text-align: center;
 
-  @media screen and (max-width: 144rem) {
-    margin-inline: 8rem;
+  @media screen and (min-width: 900px) {
+    display: flex;
+    margin-inline: 0;
   }
 
   &--box1 {
     margin-bottom: 7rem;
+
+    @media screen and (min-width: 900px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &--box2 {
+    text-align: center;
   }
 
   &--image {
     transform: scale(0.8);
     margin-left: -5rem;
+
+    @media screen and (min-width: 900px) {
+      margin-left: 0;
+      transform: none;
+    }
   }
 
   &--title {
